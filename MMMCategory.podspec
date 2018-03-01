@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'UIKit' do |ss|
     ss.source_files = 'MMCategory/UIKit/**/*.{h,m}'
-    ss.dependency 'MMCategory/Vendor'
+    ss.dependency 'MMMCategory/Vendor'
   end
 
   s.subspec 'Foundation' do |ss|
