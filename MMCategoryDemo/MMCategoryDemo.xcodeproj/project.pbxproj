@@ -21,7 +21,6 @@
 		E0DD69C62047DAA10075E85C /* UIApplication+MMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DD69BB2047DAA10075E85C /* UIApplication+MMAdd.m */; };
 		E0DD69C72047DAA10075E85C /* UIView+MMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DD69BC2047DAA10075E85C /* UIView+MMAdd.m */; };
 		E0DD69C82047DAA10075E85C /* NSDate+MMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DD69BE2047DAA10075E85C /* NSDate+MMAdd.m */; };
-		E0DD69C92047DAA10075E85C /* NSString+MMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DD69BF2047DAA10075E85C /* NSString+MMAdd.m */; };
 		E0DD69D72047DCA80075E85C /* UIGestureRecognizer+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DD69D42047DCA80075E85C /* UIGestureRecognizer+YYAdd.m */; };
 		E0DD69D82047DCA80075E85C /* UIControl+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DD69D52047DCA80075E85C /* UIControl+YYAdd.m */; };
 /* End PBXBuildFile section */
@@ -53,9 +52,7 @@
 		E0DD69BB2047DAA10075E85C /* UIApplication+MMAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+MMAdd.m"; sourceTree = "<group>"; };
 		E0DD69BC2047DAA10075E85C /* UIView+MMAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MMAdd.m"; sourceTree = "<group>"; };
 		E0DD69BE2047DAA10075E85C /* NSDate+MMAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+MMAdd.m"; sourceTree = "<group>"; };
-		E0DD69BF2047DAA10075E85C /* NSString+MMAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MMAdd.m"; sourceTree = "<group>"; };
 		E0DD69C02047DAA10075E85C /* NSDate+MMAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+MMAdd.h"; sourceTree = "<group>"; };
-		E0DD69C12047DAA10075E85C /* NSString+MMAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MMAdd.h"; sourceTree = "<group>"; };
 		E0DD69D12047DC820075E85C /* YYKitMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYKitMacro.h; sourceTree = "<group>"; };
 		E0DD69D32047DCA80075E85C /* UIControl+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+YYAdd.h"; sourceTree = "<group>"; };
 		E0DD69D42047DCA80075E85C /* UIGestureRecognizer+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+YYAdd.m"; sourceTree = "<group>"; };
@@ -143,17 +140,17 @@
 		E0DD69B02047DAA10075E85C /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				E0DD69B42047DAA10075E85C /* UIApplication+MMAdd.h */,
+				E0DD69BB2047DAA10075E85C /* UIApplication+MMAdd.m */,
+				E0DD69B72047DAA10075E85C /* UIButton+MMAdd.h */,
 				E0DD69B12047DAA10075E85C /* UIButton+MMAdd.m */,
 				E0DD69B22047DAA10075E85C /* UIColor+MMAdd.h */,
-				E0DD69B32047DAA10075E85C /* UILabel+MMAdd.h */,
-				E0DD69B42047DAA10075E85C /* UIApplication+MMAdd.h */,
-				E0DD69B52047DAA10075E85C /* UIImageView+MMAdd.h */,
-				E0DD69B62047DAA10075E85C /* UIView+MMAdd.h */,
-				E0DD69B72047DAA10075E85C /* UIButton+MMAdd.h */,
-				E0DD69B82047DAA10075E85C /* UILabel+MMAdd.m */,
 				E0DD69B92047DAA10075E85C /* UIColor+MMAdd.m */,
+				E0DD69B52047DAA10075E85C /* UIImageView+MMAdd.h */,
 				E0DD69BA2047DAA10075E85C /* UIImageView+MMAdd.m */,
-				E0DD69BB2047DAA10075E85C /* UIApplication+MMAdd.m */,
+				E0DD69B32047DAA10075E85C /* UILabel+MMAdd.h */,
+				E0DD69B82047DAA10075E85C /* UILabel+MMAdd.m */,
+				E0DD69B62047DAA10075E85C /* UIView+MMAdd.h */,
 				E0DD69BC2047DAA10075E85C /* UIView+MMAdd.m */,
 			);
 			path = UIKit;
@@ -162,10 +159,8 @@
 		E0DD69BD2047DAA10075E85C /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				E0DD69BE2047DAA10075E85C /* NSDate+MMAdd.m */,
-				E0DD69BF2047DAA10075E85C /* NSString+MMAdd.m */,
 				E0DD69C02047DAA10075E85C /* NSDate+MMAdd.h */,
-				E0DD69C12047DAA10075E85C /* NSString+MMAdd.h */,
+				E0DD69BE2047DAA10075E85C /* NSDate+MMAdd.m */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -318,7 +313,6 @@
 				E0DD69C62047DAA10075E85C /* UIApplication+MMAdd.m in Sources */,
 				E0DD69C32047DAA10075E85C /* UILabel+MMAdd.m in Sources */,
 				E0DD69C72047DAA10075E85C /* UIView+MMAdd.m in Sources */,
-				E0DD69C92047DAA10075E85C /* NSString+MMAdd.m in Sources */,
 				E0DD699E2047DA4C0075E85C /* ViewController.m in Sources */,
 				E0DD69D72047DCA80075E85C /* UIGestureRecognizer+YYAdd.m in Sources */,
 				E0DD69C82047DAA10075E85C /* NSDate+MMAdd.m in Sources */,
@@ -464,6 +458,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MMCategoryDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mille.MMCategoryDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -478,6 +473,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MMCategoryDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mille.MMCategoryDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
