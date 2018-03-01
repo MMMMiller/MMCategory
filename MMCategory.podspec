@@ -32,4 +32,5 @@ Pod::Spec.new do |s|
   s.dependency 'Masonry'
 
 end
+#pod trunk push MMKit.podspec --allow-warnings
 #pod repo push MMCategory MMCategory.podspec --allow-warnings --sources='https://github.com/CocoaPods/Specs.git'
