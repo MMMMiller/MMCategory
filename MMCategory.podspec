@@ -20,10 +20,11 @@ Pod::Spec.new do |s|
 
   s.subspec 'UIKit' do |ss|
     ss.source_files = 'MMCategory/UIKit/**/*.{h,m}'
+    ss.dependency 'MMCategory/Vendor'
   end
 
   s.subspec 'Foundation' do |ss|
-    ss.source_files = 'MMCategory/UIKit/**/*.{h,m}'
+    ss.source_files = 'MMCategory/Foundation/**/*.{h,m}'
   end
 
   s.libraries = 'z', 'sqlite3'
