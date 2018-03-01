@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = 'MMMCategory'
   s.summary      = 'A category of iOS components.'
-  s.version      = '0.0.2'
+  s.version      = '0.0.3'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.authors      = { 'MMMille' => 'xuemingluan@gmail.com' }
   #s.social_media_url = 'http://blog.MMMille.com'
@@ -26,13 +26,11 @@ Pod::Spec.new do |s|
 
   s.subspec 'Foundation' do |ss|
     ss.source_files = 'MMCategory/Foundation/**/*.{h,m}'
-    ss.dependency 'Masonry'
   end
 
   s.libraries = 'z', 'sqlite3'
   s.frameworks = 'UIKit', 'CoreFoundation', 'CoreText', 'CoreGraphics', 'CoreImage', 'QuartzCore', 'ImageIO', 'AssetsLibrary', 'Accelerate', 'MobileCoreServices', 'SystemConfiguration'
   
-
 end
 #pod trunk push MMMCategory.podspec --allow-warnings
 #pod repo push MMMCategory MMMCategory.podspec --allow-warnings --sources='https://github.com/CocoaPods/Specs.git'

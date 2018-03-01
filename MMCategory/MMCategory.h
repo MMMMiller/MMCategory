@@ -17,6 +17,5 @@
 #import "UIView+MMAdd.h"
 
 #import "NSDate+MMAdd.h"
-#import "NSString+MMAdd.h"
 
 #endif /* MMCategory_h */
