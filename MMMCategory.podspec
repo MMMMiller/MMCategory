@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = 'MMCategory'
+  s.name         = 'MMMCategory'
   s.summary      = 'A category of iOS components.'
   s.version      = '0.0.1'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
@@ -32,5 +32,5 @@ Pod::Spec.new do |s|
   s.dependency 'Masonry'
 
 end
-#pod trunk push MMKit.podspec --allow-warnings
-#pod repo push MMCategory MMCategory.podspec --allow-warnings --sources='https://github.com/CocoaPods/Specs.git'
+#pod trunk push MMMCategory.podspec --allow-warnings
+#pod repo push MMMCategory MMMCategory.podspec --allow-warnings --sources='https://github.com/CocoaPods/Specs.git'
