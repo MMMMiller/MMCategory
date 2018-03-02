@@ -21,6 +21,8 @@
 		E0DD69C62047DAA10075E85C /* UIApplication+MMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DD69BB2047DAA10075E85C /* UIApplication+MMAdd.m */; };
 		E0DD69C72047DAA10075E85C /* UIView+MMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DD69BC2047DAA10075E85C /* UIView+MMAdd.m */; };
 		E0DD69C82047DAA10075E85C /* NSDate+MMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DD69BE2047DAA10075E85C /* NSDate+MMAdd.m */; };
+		E0DD69ED204956160075E85C /* UIControl+MMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DD69EC204956160075E85C /* UIControl+MMAdd.m */; };
+		E0DD69F0204956260075E85C /* UIGestureRecognizer+MMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DD69EF204956260075E85C /* UIGestureRecognizer+MMAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,10 @@
 		E0DD69BE2047DAA10075E85C /* NSDate+MMAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+MMAdd.m"; sourceTree = "<group>"; };
 		E0DD69C02047DAA10075E85C /* NSDate+MMAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+MMAdd.h"; sourceTree = "<group>"; };
 		E0DD69D92047DD0E0075E85C /* MMCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMCategory.h; sourceTree = "<group>"; };
+		E0DD69EB204956160075E85C /* UIControl+MMAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIControl+MMAdd.h"; sourceTree = "<group>"; };
+		E0DD69EC204956160075E85C /* UIControl+MMAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIControl+MMAdd.m"; sourceTree = "<group>"; };
+		E0DD69EE204956260075E85C /* UIGestureRecognizer+MMAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+MMAdd.h"; sourceTree = "<group>"; };
+		E0DD69EF204956260075E85C /* UIGestureRecognizer+MMAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+MMAdd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +150,10 @@
 				E0DD69B82047DAA10075E85C /* UILabel+MMAdd.m */,
 				E0DD69B62047DAA10075E85C /* UIView+MMAdd.h */,
 				E0DD69BC2047DAA10075E85C /* UIView+MMAdd.m */,
+				E0DD69EB204956160075E85C /* UIControl+MMAdd.h */,
+				E0DD69EC204956160075E85C /* UIControl+MMAdd.m */,
+				E0DD69EE204956260075E85C /* UIGestureRecognizer+MMAdd.h */,
+				E0DD69EF204956260075E85C /* UIGestureRecognizer+MMAdd.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -289,9 +299,11 @@
 				E0DD69C82047DAA10075E85C /* NSDate+MMAdd.m in Sources */,
 				E0DD69A92047DA4C0075E85C /* main.m in Sources */,
 				E0DD699B2047DA4C0075E85C /* AppDelegate.m in Sources */,
+				E0DD69ED204956160075E85C /* UIControl+MMAdd.m in Sources */,
 				E0DD69C52047DAA10075E85C /* UIImageView+MMAdd.m in Sources */,
 				E0DD69C22047DAA10075E85C /* UIButton+MMAdd.m in Sources */,
 				E0DD69C42047DAA10075E85C /* UIColor+MMAdd.m in Sources */,
+				E0DD69F0204956260075E85C /* UIGestureRecognizer+MMAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

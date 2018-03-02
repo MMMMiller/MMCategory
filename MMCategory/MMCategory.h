@@ -15,9 +15,9 @@
 #import "UIImageView+MMAdd.h"
 #import "UILabel+MMAdd.h"
 #import "UIView+MMAdd.h"
+#import "UIControl+MMAdd.h"
+#import "UIGestureRecognizer+MMAdd.h"
 
 #import "NSDate+MMAdd.h"
-
-#import <YYCategories/YYCategories.h>
 
 #endif /* MMCategory_h */

@@ -7,13 +7,13 @@
 //
 
 #import "UIView+MMAdd.h"
-#import <YYCategories/YYCategories.h>
+#import "UIGestureRecognizer+MMAdd.h"
 
 @implementation UIView (MMAdd)
 
-- (void)addLongPressGestureRecognizerWithHandler:(void (^)(id sender))handler
+- (void)mm_addLongPressGestureRecognizerWithHandler:(void (^)(id sender))handler
 {
-    UILongPressGestureRecognizer *recognizer = [[UILongPressGestureRecognizer alloc] initWithActionBlock:^(id  _Nonnull sender) {
+    UILongPressGestureRecognizer *recognizer = [[UILongPressGestureRecognizer alloc] initWithMMActionBlock:^(id  _Nonnull sender) {
         if (handler) {
             handler(self);
         }
@@ -22,9 +22,9 @@
     [self setUserInteractionEnabled:YES];
 }
 
-- (void)addTapGestureRecognizerWithHandler:(void (^)(id))handler
+- (void)mm_addTapGestureRecognizerWithHandler:(void (^)(id))handler
 {
-    UITapGestureRecognizer *recognizer = [[UITapGestureRecognizer alloc] initWithActionBlock:^(id  _Nonnull sender) {
+    UITapGestureRecognizer *recognizer = [[UITapGestureRecognizer alloc] initWithMMActionBlock:^(id  _Nonnull sender) {
         if (handler) {
             handler(self);
         }

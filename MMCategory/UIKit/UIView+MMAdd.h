@@ -13,11 +13,11 @@
 /**
  添加一个长按手势操作
  */
-- (void)addLongPressGestureRecognizerWithHandler:(void(^)(id sender))handler;
+- (void)mm_addLongPressGestureRecognizerWithHandler:(void(^)(id sender))handler;
 
 /**
  添加一个点击手势操作
  */
-- (void)addTapGestureRecognizerWithHandler:(void (^)(id sender))handler;
+- (void)mm_addTapGestureRecognizerWithHandler:(void (^)(id sender))handler;
 
 @end
