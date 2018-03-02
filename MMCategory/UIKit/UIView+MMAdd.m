@@ -7,7 +7,7 @@
 //
 
 #import "UIView+MMAdd.h"
-#import <YYKit/YYKit.h>
+#import <YYCategories/YYCategories.h>
 
 @implementation UIView (MMAdd)
 

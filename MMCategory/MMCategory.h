@@ -18,6 +18,6 @@
 
 #import "NSDate+MMAdd.h"
 
-#import <YYKit/YYKit.h>
+#import <YYCategories/YYCategories.h>
 
 #endif /* MMCategory_h */

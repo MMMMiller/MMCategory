@@ -7,7 +7,7 @@
 //
 
 #import "UIButton+MMAdd.h"
-#import <YYKit/YYKit.h>
+#import <YYCategories/YYCategories.h>
 
 @implementation UIButton (MMAdd)
 

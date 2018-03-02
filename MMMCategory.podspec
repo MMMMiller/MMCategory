@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = 'MMMCategory'
   s.summary      = 'A category of iOS components.'
-  s.version      = '0.0.7'
+  s.version      = '0.0.6'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.authors      = { 'MMMille' => 'xuemingluan@gmail.com' }
   #s.social_media_url = 'http://blog.MMMille.com'
@@ -12,6 +12,7 @@ Pod::Spec.new do |s|
   
   s.requires_arc = true
   s.source_files = 'MMCategory/MMCategory.h'
+  s.public_header_files = 'MMCategory/MMCategory.h'
 
   s.subspec 'UIKit' do |ss|
     ss.source_files = 'MMCategory/UIKit/**/*.{h,m}'
