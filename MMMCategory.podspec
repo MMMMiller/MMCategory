@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = 'MMMCategory'
   s.summary      = 'A category of iOS components.'
-  s.version      = '0.0.5'
+  s.version      = '0.0.6'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.authors      = { 'MMMille' => 'xuemingluan@gmail.com' }
   #s.social_media_url = 'http://blog.MMMille.com'
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'UIKit' do |ss|
     ss.source_files = 'MMCategory/UIKit/**/*.{h,m}'
-    ss.dependency 'YYCategories'
+    ss.dependency 'YYKit'
     ss.dependency 'Masonry'
   end
 
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
 
   s.libraries = 'z', 'sqlite3'
   s.frameworks = 'UIKit', 'CoreFoundation', 'CoreText', 'CoreGraphics', 'CoreImage', 'QuartzCore', 'ImageIO', 'AssetsLibrary', 'Accelerate', 'MobileCoreServices', 'SystemConfiguration'
-  s.dependency 'YYCategories'
+  s.dependency 'YYKit'
   s.dependency 'Masonry'
 end
 #pod trunk push MMMCategory.podspec --allow-warnings
