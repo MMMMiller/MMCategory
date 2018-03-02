@@ -1,6 +1,6 @@
 //
 //  UIGestureRecognizer+YYAdd.m
-//  YYKit <https://github.com/ibireme/YYKit>
+//  YYCategories <https://github.com/ibireme/YYCategories>
 //
 //  Created by ibireme on 13/10/13.
 //  Copyright (c) 2015 ibireme.
@@ -10,7 +10,7 @@
 //
 
 #import "UIGestureRecognizer+YYAdd.h"
-#import "YYKitMacro.h"
+#import "YYCategoriesMacro.h"
 #import <objc/runtime.h>
 
 static const int block_key;

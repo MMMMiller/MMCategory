@@ -21,8 +21,6 @@
 		E0DD69C62047DAA10075E85C /* UIApplication+MMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DD69BB2047DAA10075E85C /* UIApplication+MMAdd.m */; };
 		E0DD69C72047DAA10075E85C /* UIView+MMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DD69BC2047DAA10075E85C /* UIView+MMAdd.m */; };
 		E0DD69C82047DAA10075E85C /* NSDate+MMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DD69BE2047DAA10075E85C /* NSDate+MMAdd.m */; };
-		E0DD69D72047DCA80075E85C /* UIGestureRecognizer+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DD69D42047DCA80075E85C /* UIGestureRecognizer+YYAdd.m */; };
-		E0DD69D82047DCA80075E85C /* UIControl+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DD69D52047DCA80075E85C /* UIControl+YYAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,11 +51,6 @@
 		E0DD69BC2047DAA10075E85C /* UIView+MMAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MMAdd.m"; sourceTree = "<group>"; };
 		E0DD69BE2047DAA10075E85C /* NSDate+MMAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+MMAdd.m"; sourceTree = "<group>"; };
 		E0DD69C02047DAA10075E85C /* NSDate+MMAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+MMAdd.h"; sourceTree = "<group>"; };
-		E0DD69D12047DC820075E85C /* YYKitMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYKitMacro.h; sourceTree = "<group>"; };
-		E0DD69D32047DCA80075E85C /* UIControl+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+YYAdd.h"; sourceTree = "<group>"; };
-		E0DD69D42047DCA80075E85C /* UIGestureRecognizer+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+YYAdd.m"; sourceTree = "<group>"; };
-		E0DD69D52047DCA80075E85C /* UIControl+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+YYAdd.m"; sourceTree = "<group>"; };
-		E0DD69D62047DCA80075E85C /* UIGestureRecognizer+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+YYAdd.h"; sourceTree = "<group>"; };
 		E0DD69D92047DD0E0075E85C /* MMCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMCategory.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,7 +122,6 @@
 			isa = PBXGroup;
 			children = (
 				E0DD69D92047DD0E0075E85C /* MMCategory.h */,
-				E0DD69CA2047DB980075E85C /* Vendor */,
 				E0DD69B02047DAA10075E85C /* UIKit */,
 				E0DD69BD2047DAA10075E85C /* Foundation */,
 			);
@@ -163,26 +155,6 @@
 				E0DD69BE2047DAA10075E85C /* NSDate+MMAdd.m */,
 			);
 			path = Foundation;
-			sourceTree = "<group>";
-		};
-		E0DD69CA2047DB980075E85C /* Vendor */ = {
-			isa = PBXGroup;
-			children = (
-				E0DD69D12047DC820075E85C /* YYKitMacro.h */,
-				E0DD69D22047DCA80075E85C /* YYCategories */,
-			);
-			path = Vendor;
-			sourceTree = "<group>";
-		};
-		E0DD69D22047DCA80075E85C /* YYCategories */ = {
-			isa = PBXGroup;
-			children = (
-				E0DD69D32047DCA80075E85C /* UIControl+YYAdd.h */,
-				E0DD69D42047DCA80075E85C /* UIGestureRecognizer+YYAdd.m */,
-				E0DD69D52047DCA80075E85C /* UIControl+YYAdd.m */,
-				E0DD69D62047DCA80075E85C /* UIGestureRecognizer+YYAdd.h */,
-			);
-			path = YYCategories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,14 +286,12 @@
 				E0DD69C32047DAA10075E85C /* UILabel+MMAdd.m in Sources */,
 				E0DD69C72047DAA10075E85C /* UIView+MMAdd.m in Sources */,
 				E0DD699E2047DA4C0075E85C /* ViewController.m in Sources */,
-				E0DD69D72047DCA80075E85C /* UIGestureRecognizer+YYAdd.m in Sources */,
 				E0DD69C82047DAA10075E85C /* NSDate+MMAdd.m in Sources */,
 				E0DD69A92047DA4C0075E85C /* main.m in Sources */,
 				E0DD699B2047DA4C0075E85C /* AppDelegate.m in Sources */,
 				E0DD69C52047DAA10075E85C /* UIImageView+MMAdd.m in Sources */,
 				E0DD69C22047DAA10075E85C /* UIButton+MMAdd.m in Sources */,
 				E0DD69C42047DAA10075E85C /* UIColor+MMAdd.m in Sources */,
-				E0DD69D82047DCA80075E85C /* UIControl+YYAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,6 +1,6 @@
 //
-//  YYKitMacro.h
-//  YYKit <https://github.com/ibireme/YYKit>
+//  YYCategoriesMacro.h
+//  YYCategories <https://github.com/ibireme/YYCategories>
 //
 //  Created by ibireme on 13/3/29.
 //  Copyright (c) 2015 ibireme.
@@ -13,8 +13,8 @@
 #import <sys/time.h>
 #import <pthread.h>
 
-#ifndef YYKitMacro_h
-#define YYKitMacro_h
+#ifndef YYCategoriesMacro_h
+#define YYCategoriesMacro_h
 
 #ifdef __cplusplus
 #define YY_EXTERN_C_BEGIN  extern "C" {
@@ -23,6 +23,7 @@
 #define YY_EXTERN_C_BEGIN
 #define YY_EXTERN_C_END
 #endif
+
 
 
 YY_EXTERN_C_BEGIN
@@ -116,7 +117,7 @@ YY_EXTERN_C_BEGIN
     objc_setAssociatedObject(self, _cmd, value, OBJC_ASSOCIATION_RETAIN); \
     [self didChangeValueForKey:@#_getter_]; \
 } \
-- (_type_)_getter_ { \
+- (type)_getter_ { \
     _type_ cValue = { 0 }; \
     NSValue *value = objc_getAssociatedObject(self, @selector(_setter_:)); \
     [value getValue:&cValue]; \
@@ -200,8 +201,8 @@ static inline CFTypeRef YYCFAutorelease(CFTypeRef CF_RELEASES_ARGUMENT arg) {
 
 /**
  Profile time cost.
- @param block    code to benchmark
- @param complete code time cost (millisecond)
+ @param ^block     code to benchmark
+ @param ^complete  code time cost (millisecond)
  
  Usage:
     YYBenchmark(^{

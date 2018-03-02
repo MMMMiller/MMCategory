@@ -1,12 +1,17 @@
 PODS:
   - Masonry (1.1.0)
+  - YYCategories (1.0.4):
+    - YYCategories/no-arc (= 1.0.4)
+  - YYCategories/no-arc (1.0.4)
 
 DEPENDENCIES:
   - Masonry
+  - YYCategories
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
 
-PODFILE CHECKSUM: 35e355a4d884d41b00ef90c8f4de72632d78e51e
+PODFILE CHECKSUM: e7d9cd63269d02678dbe836826ef532026eab0cd
 
 COCOAPODS: 1.4.0

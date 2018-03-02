@@ -7,7 +7,7 @@
 //
 
 #import "UIView+MMAdd.h"
-#import "UIGestureRecognizer+YYAdd.h"
+#import <YYCategories/YYCategories.h>
 
 @implementation UIView (MMAdd)
 

@@ -7,7 +7,7 @@
 //
 
 #import "UIButton+MMAdd.h"
-#import "UIControl+YYAdd.h"
+#import <YYCategories/YYCategories.h>
 
 @implementation UIButton (MMAdd)
 
