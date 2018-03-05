@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = 'MMMCategory'
   s.summary      = 'A category of iOS components.'
-  s.version      = '0.0.8'
+  s.version      = '0.0.8.1'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.authors      = { 'MMMille' => 'xuemingluan@gmail.com' }
   #s.social_media_url = 'http://blog.MMMille.com'
