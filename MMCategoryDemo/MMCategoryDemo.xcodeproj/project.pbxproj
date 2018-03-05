@@ -105,6 +105,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E0999C04204D4E7E002A514A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E0999C03204D4A7C002A514A /* MMCategoryMacro.h */,
+				E0999C00204D4A0C002A514A /* MMCGUtilities.h */,
+				E0999C01204D4A0C002A514A /* MMCGUtilities.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		E0DD698D2047DA4C0075E85C = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				E0DD69D92047DD0E0075E85C /* MMCategory.h */,
+				E0999C04204D4E7E002A514A /* Base */,
 				E0DD69B02047DAA10075E85C /* UIKit */,
 				E0DD69BD2047DAA10075E85C /* Foundation */,
 			);
@@ -154,9 +165,6 @@
 		E0DD69B02047DAA10075E85C /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				E0999C03204D4A7C002A514A /* MMCategoryMacro.h */,
-				E0999C00204D4A0C002A514A /* MMCGUtilities.h */,
-				E0999C01204D4A0C002A514A /* MMCGUtilities.m */,
 				E0999BF5204D495A002A514A /* CALayer+MMAdd.h */,
 				E0999BF4204D495A002A514A /* CALayer+MMAdd.m */,
 				E0DD69B42047DAA10075E85C /* UIApplication+MMAdd.h */,
