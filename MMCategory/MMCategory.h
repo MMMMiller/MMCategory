@@ -9,7 +9,7 @@
 #ifndef MMCategory_h
 #define MMCategory_h
 
-#import "MMCategotyMacro.h"
+#import "MMCategoryMacro.h"
 #import "MMCGUtilities.h"
 
 #import "UIApplication+MMAdd.h"
