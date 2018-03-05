@@ -107,6 +107,46 @@
     self.frame = frame;
 }
 
+- (CGPoint)mm_center {
+    return CGPointMake(self.frame.origin.x + self.frame.size.width * 0.5,
+                       self.frame.origin.y + self.frame.size.height * 0.5);
+}
+
+- (UIViewController *)mm_viewController {
+    for (UIView *view = self; view; view = view.superview) {
+        UIResponder *nextResponder = [view nextResponder];
+        if ([nextResponder isKindOfClass:[UIViewController class]]) {
+            return (UIViewController *)nextResponder;
+        }
+    }
+    return nil;
+}
+
+- (void)setMm_center:(CGPoint)center {
+    CGRect frame = self.frame;
+    frame.origin.x = center.x - frame.size.width * 0.5;
+    frame.origin.y = center.y - frame.size.height * 0.5;
+    self.frame = frame;
+}
+
+- (UIImage *)mm_snapshotImage {
+    UIGraphicsBeginImageContextWithOptions(self.bounds.size, self.opaque, 0);
+    [self.layer renderInContext:UIGraphicsGetCurrentContext()];
+    UIImage *snap = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return snap;
+}
+
+- (UIImage *)mm_snapshotImageAfterScreenUpdates:(BOOL)afterUpdates {
+    if (![self respondsToSelector:@selector(drawViewHierarchyInRect:afterScreenUpdates:)]) {
+        return [self mm_snapshotImage];
+    }
+    UIGraphicsBeginImageContextWithOptions(self.bounds.size, self.opaque, 0);
+    [self drawViewHierarchyInRect:self.bounds afterScreenUpdates:afterUpdates];
+    UIImage *snap = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return snap;
+}
 - (void)mm_addLongPressGestureRecognizerWithHandler:(void (^)(id sender))handler
 {
     UILongPressGestureRecognizer *recognizer = [[UILongPressGestureRecognizer alloc] initWithMMActionBlock:^(id  _Nonnull sender) {

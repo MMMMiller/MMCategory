@@ -20,7 +20,13 @@
 @property (nonatomic) CGFloat mm_centerY;
 @property (nonatomic) CGPoint mm_origin;
 @property (nonatomic) CGSize  mm_size;
+@property (nonatomic) CGPoint mm_center;
 
+@property (nonatomic, readonly) UIViewController *mm_viewController;
+
+- (UIImage *)mm_snapshotImage;
+
+- (UIImage *)mm_snapshotImageAfterScreenUpdates:(BOOL)afterUpdates;
 /**
  添加一个长按手势操作
  */

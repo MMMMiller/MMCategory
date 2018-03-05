@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		953FABA274719704F7BCBAEE /* libPods-MMCategoryDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA0A68AD26ACBEA607DD9C5 /* libPods-MMCategoryDemo.a */; };
+		E0999BF6204D495A002A514A /* CALayer+MMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E0999BF4204D495A002A514A /* CALayer+MMAdd.m */; };
+		E0999BF9204D49B4002A514A /* UIImage+MMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E0999BF8204D49B4002A514A /* UIImage+MMAdd.m */; };
+		E0999BFC204D49CD002A514A /* UIScrollView+MMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E0999BFB204D49CD002A514A /* UIScrollView+MMAdd.m */; };
+		E0999BFF204D49E9002A514A /* NSString+MMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E0999BFD204D49E8002A514A /* NSString+MMAdd.m */; };
+		E0999C02204D4A0C002A514A /* MMCGUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E0999C01204D4A0C002A514A /* MMCGUtilities.m */; };
 		E0DD699B2047DA4C0075E85C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DD699A2047DA4C0075E85C /* AppDelegate.m */; };
 		E0DD699E2047DA4C0075E85C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DD699D2047DA4C0075E85C /* ViewController.m */; };
 		E0DD69A12047DA4C0075E85C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0DD699F2047DA4C0075E85C /* Main.storyboard */; };
@@ -29,6 +34,17 @@
 		28988C173CBE8908FF50000C /* Pods-MMCategoryDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMCategoryDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MMCategoryDemo/Pods-MMCategoryDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		708D1DBF159345BA10E8ABAC /* Pods-MMCategoryDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMCategoryDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MMCategoryDemo/Pods-MMCategoryDemo.release.xcconfig"; sourceTree = "<group>"; };
 		9AA0A68AD26ACBEA607DD9C5 /* libPods-MMCategoryDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MMCategoryDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0999BF4204D495A002A514A /* CALayer+MMAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+MMAdd.m"; sourceTree = "<group>"; };
+		E0999BF5204D495A002A514A /* CALayer+MMAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+MMAdd.h"; sourceTree = "<group>"; };
+		E0999BF7204D49B4002A514A /* UIImage+MMAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MMAdd.h"; sourceTree = "<group>"; };
+		E0999BF8204D49B4002A514A /* UIImage+MMAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MMAdd.m"; sourceTree = "<group>"; };
+		E0999BFA204D49CC002A514A /* UIScrollView+MMAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+MMAdd.h"; sourceTree = "<group>"; };
+		E0999BFB204D49CD002A514A /* UIScrollView+MMAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MMAdd.m"; sourceTree = "<group>"; };
+		E0999BFD204D49E8002A514A /* NSString+MMAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MMAdd.m"; sourceTree = "<group>"; };
+		E0999BFE204D49E8002A514A /* NSString+MMAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MMAdd.h"; sourceTree = "<group>"; };
+		E0999C00204D4A0C002A514A /* MMCGUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMCGUtilities.h; sourceTree = "<group>"; };
+		E0999C01204D4A0C002A514A /* MMCGUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMCGUtilities.m; sourceTree = "<group>"; };
+		E0999C03204D4A7C002A514A /* MMCategoryMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMCategoryMacro.h; sourceTree = "<group>"; };
 		E0DD69962047DA4C0075E85C /* MMCategoryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMCategoryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0DD69992047DA4C0075E85C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E0DD699A2047DA4C0075E85C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -138,6 +154,11 @@
 		E0DD69B02047DAA10075E85C /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				E0999C03204D4A7C002A514A /* MMCategoryMacro.h */,
+				E0999C00204D4A0C002A514A /* MMCGUtilities.h */,
+				E0999C01204D4A0C002A514A /* MMCGUtilities.m */,
+				E0999BF5204D495A002A514A /* CALayer+MMAdd.h */,
+				E0999BF4204D495A002A514A /* CALayer+MMAdd.m */,
 				E0DD69B42047DAA10075E85C /* UIApplication+MMAdd.h */,
 				E0DD69BB2047DAA10075E85C /* UIApplication+MMAdd.m */,
 				E0DD69B72047DAA10075E85C /* UIButton+MMAdd.h */,
@@ -148,8 +169,12 @@
 				E0DD69BA2047DAA10075E85C /* UIImageView+MMAdd.m */,
 				E0DD69B32047DAA10075E85C /* UILabel+MMAdd.h */,
 				E0DD69B82047DAA10075E85C /* UILabel+MMAdd.m */,
+				E0999BF7204D49B4002A514A /* UIImage+MMAdd.h */,
+				E0999BF8204D49B4002A514A /* UIImage+MMAdd.m */,
 				E0DD69B62047DAA10075E85C /* UIView+MMAdd.h */,
 				E0DD69BC2047DAA10075E85C /* UIView+MMAdd.m */,
+				E0999BFA204D49CC002A514A /* UIScrollView+MMAdd.h */,
+				E0999BFB204D49CD002A514A /* UIScrollView+MMAdd.m */,
 				E0DD69EB204956160075E85C /* UIControl+MMAdd.h */,
 				E0DD69EC204956160075E85C /* UIControl+MMAdd.m */,
 				E0DD69EE204956260075E85C /* UIGestureRecognizer+MMAdd.h */,
@@ -163,6 +188,8 @@
 			children = (
 				E0DD69C02047DAA10075E85C /* NSDate+MMAdd.h */,
 				E0DD69BE2047DAA10075E85C /* NSDate+MMAdd.m */,
+				E0999BFE204D49E8002A514A /* NSString+MMAdd.h */,
+				E0999BFD204D49E8002A514A /* NSString+MMAdd.m */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -293,10 +320,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0DD69C62047DAA10075E85C /* UIApplication+MMAdd.m in Sources */,
+				E0999BFF204D49E9002A514A /* NSString+MMAdd.m in Sources */,
+				E0999BF9204D49B4002A514A /* UIImage+MMAdd.m in Sources */,
 				E0DD69C32047DAA10075E85C /* UILabel+MMAdd.m in Sources */,
+				E0999BFC204D49CD002A514A /* UIScrollView+MMAdd.m in Sources */,
 				E0DD69C72047DAA10075E85C /* UIView+MMAdd.m in Sources */,
 				E0DD699E2047DA4C0075E85C /* ViewController.m in Sources */,
 				E0DD69C82047DAA10075E85C /* NSDate+MMAdd.m in Sources */,
+				E0999BF6204D495A002A514A /* CALayer+MMAdd.m in Sources */,
 				E0DD69A92047DA4C0075E85C /* main.m in Sources */,
 				E0DD699B2047DA4C0075E85C /* AppDelegate.m in Sources */,
 				E0DD69ED204956160075E85C /* UIControl+MMAdd.m in Sources */,
@@ -304,6 +335,7 @@
 				E0DD69C22047DAA10075E85C /* UIButton+MMAdd.m in Sources */,
 				E0DD69C42047DAA10075E85C /* UIColor+MMAdd.m in Sources */,
 				E0DD69F0204956260075E85C /* UIGestureRecognizer+MMAdd.m in Sources */,
+				E0999C02204D4A0C002A514A /* MMCGUtilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
